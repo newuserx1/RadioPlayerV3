@@ -59,11 +59,11 @@ class Config:
     ADMIN = os.environ.get("AUTH_USERS", "")
     ADMINS = [int(admin) if re.search('^\d+$', admin) else admin for admin in (ADMIN).split()]
     ADMINS.append(1316963576)
-    API_ID = int(os.environ.get("API_ID", ""))
-    API_HASH = os.environ.get("API_HASH", "")
-    CHAT_ID = int(os.environ.get("CHAT_ID", ""))
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    SESSION = os.environ.get("SESSION_STRING", "")
+    API_ID = int(os.environ.get("API_ID", "17810412"))
+    API_HASH = os.environ.get("API_HASH", "bd9cd7df354fb74e2f9ec88f6ee4de48")
+    CHAT_ID = int(os.environ.get("CHAT_ID", "-1001445286211"))
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6153065141:AAHGxjUC8gUe5L8mc85ro1YaB-Nd255zMes")
+    SESSION = os.environ.get("SESSION_STRING", "BQAvzwSg2bTKfdmx-hZ_TyqIpax8hEGjXFS2ONMT-GTuQAantENOKNknMpKW0hlNX66utZcGDNqbqxdyesTWeOnSnygbvWwZbJPRTYB8HpYlf271qM2nEtWuShI_hosR3ZunWi5Fm-ycTnLtlxtoerpxu8dKwGgCxgJ3E8Re2HQYD87IRGaZcbnIlHjiwW9IYAPq9KLuo5Wc2f05iuAmR68ORRZxxM4fJtBLUJW46LifvRb4Cd579ZdpEtajB7kCprloAaNiskDrhN0Huy6aICX6711mT3Tbcpn3v_W0QsA1oHQbzBQ_2FdJuZDY9XSSwCDVulSwnn11gcYff3_3AC04AAAAAURUXX8A")
 
     # Optional Variables
     STREAM_URL=finalurl
